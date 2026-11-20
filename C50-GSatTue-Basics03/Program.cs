@@ -38,8 +38,8 @@ namespace C50_GSatTue_Basics03
             #endregion
             #region Question 05
             //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, Pages: 464" using the + operator.
-            string title = "Clean Code";
-            int pages = 464;
+            //string title = "Clean Code";
+            //int pages = 464;
             //string sentence = "Book: " + title + ", Pages: " + pages;
 
             #endregion
@@ -50,8 +50,21 @@ namespace C50_GSatTue_Basics03
             #endregion
             #region Question 07
             //Build the same sentence again, but using string.Format().
-            string sentence3 = string.Format("Book: {0}, Pages: {1}", title, pages);
-            
+            //string sentence3 = string.Format("Book: {0}, Pages: {1}", title, pages);
+
+            #endregion
+            #region Question 08
+            //Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book"
+            int pages = 464;
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+
             #endregion
         }
     }
