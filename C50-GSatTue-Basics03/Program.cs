@@ -45,10 +45,14 @@ namespace C50_GSatTue_Basics03
             #endregion
             #region Question 06
             //Build the same sentence as above, but using string interpolation ($"...")
-            string sentence2 = $"Book: {title}, Pages: {pages}";
+            //string sentence2 = $"Book: {title}, Pages: {pages}";
+
+            #endregion
+            #region Question 07
+            //Build the same sentence again, but using string.Format().
+            string sentence3 = string.Format("Book: {0}, Pages: {1}", title, pages);
             
             #endregion
-
         }
     }
 }
